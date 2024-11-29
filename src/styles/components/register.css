@@ -1,0 +1,35 @@
+:root {
+    --form-gap: 15px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 70px 50px 0 50px;
+    border: 1px solid var(--color-highlight);
+    border-radius: 30px;
+}
+
+.register, .login {
+    display: flex;
+    flex-direction: column;
+    gap: var(--form-gap);
+    padding: 50px;
+
+    * {
+        flex: 1;
+    }
+}
+
+.register {
+    border-right: 1px solid var(--color-highlight);
+
+    div {
+        display: flex;
+        gap: var(--form-gap);
+    }
+}
+
+.login {
+
+}

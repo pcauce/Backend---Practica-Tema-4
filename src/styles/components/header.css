@@ -1,0 +1,18 @@
+header {
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border-bottom: 1px solid var(--color-secondary);
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    a {
+        text-decoration: none;
+    }
+}
